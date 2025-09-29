@@ -1,24 +1,29 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
 # Movie Search App
 
-## Setup
-1. Install dependencies
+A simple React application that lets users search for movies, view search results, and see detailed information about a selected movie using the TMDB API.
+
+---
+
+## Features
+
+- Search movies by title.
+- View search results with poster, title, and release year.
+- Click a movie to see detailed information (title, synopsis, rating, year, poster).
+- “Back” button to return to search results.
+- Handles interface states:
+  - Before searching: welcome message.
+  - Loading: displays “Loading…”.
+  - Errors: displays network or not-found messages.
+- Uses React Router for navigation between pages.
+- TMDB API key stored securely in `.env`.
+
+---
+
+## Setup & Running the Project
+
+1. **Clone the repository and install dependencies:**
+
 ```bash
+git clone https://github.com/your-username/movie-search-app.git
+cd movie-search-app
 npm install
