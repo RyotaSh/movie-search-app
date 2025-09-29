@@ -1,0 +1,83 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-bar {
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff8c00;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-bar button:hover {
+  background-color: #ffa500;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 180px;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.movie-card p {
+  margin: 5px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212; 
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
