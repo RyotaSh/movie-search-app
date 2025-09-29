@@ -27,3 +27,12 @@ A simple React application that lets users search for movies, view search result
 git clone https://github.com/your-username/movie-search-app.git
 cd movie-search-app
 npm install
+
+
+Create a .env file in the project root with your TMDB API key:
+VITE_TMDB_API_KEY=your_api_key_here
+
+Start the development server:
+npm run dev
+
+Open the URL displayed in the terminal (usually http://localhost:5173) in your browser.
