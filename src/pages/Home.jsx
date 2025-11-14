@@ -1,6 +1,8 @@
+import Chat from "../components/Chat";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Home.css';
+
 
 export default function Home() {
   const [query, setQuery] = useState(""); 
@@ -80,6 +82,7 @@ export default function Home() {
           </div>
         ))}
       </div>
+      <Chat />
     </div>
   );
 }
